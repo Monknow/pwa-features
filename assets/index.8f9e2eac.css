@@ -1,0 +1,1 @@
+.icon{width:clamp(20px,10vw,50px);aspect-ratio:1/1}#contact-list li{display:flex;flex-flow:row-reverse;align-items:center;justify-content:center;margin:10px 0}#contact-list li *{margin:5px}
