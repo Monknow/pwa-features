@@ -3,6 +3,7 @@ import {resolve} from "path";
 import mkcert from "vite-plugin-mkcert";
 
 export default defineConfig({
+	base: "/pwa-features/",
 	build: {
 		rollupOptions: {
 			input: {
