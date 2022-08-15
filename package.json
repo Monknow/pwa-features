@@ -1,0 +1,14 @@
+{
+	"name": "pwa-features",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"vite": "^3.0.0",
+		"vite-plugin-mkcert": "^1.9.0"
+	}
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="manifest" href="./../manifest.json" />
+		<link rel="icon" type="image/favicon" href="./../icons/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Web Bluetooth API</title>
+	</head>
+	<body>
+		<div id="app">
+			<a href="../index.html">Back to Home</a>
+			<h1>Web Bluetooth API</h1>
+			<button id="look-for-devices-button">Look for Devices</button>
+			<p>
+				Device name: <span id="device-name-span"></span><br />
+				Device battery:
+				<span id="device-battery-span"></span><br />
+				Bluetooth State:
+				<span id="bluetooth-state-span"></span>
+			</p>
+		</div>
+		<script type="module" src="./main.js"></script>
+	</body>
+</html>

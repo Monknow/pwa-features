@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="manifest" href="./../manifest.json" />
+		<link rel="icon" type="image/favicon" href="./../icons/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Screen Orientation API</title>
+	</head>
+	<body>
+		<div id="app">
+			<a href="../index.html">Back to Home</a>
+			<h1>Screen Orientation API</h1>
+			<p>
+				Orientation Type: <span id="orientation-type"></span>
+				<br />
+				Orientation Angle: <span id="orientation-angle"></span>
+			</p>
+			<button type="button" id="lock-button">Lock Screen</button>
+			<button type="button" id="unlock-button">Unlock Screen</button>
+			<button type="button" id="fullscreen-button">Full Screen</button>
+		</div>
+		<script type="module" src="./main.js"></script>
+	</body>
+</html>

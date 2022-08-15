@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="manifest" href="./../manifest.json" />
+		<link rel="icon" type="image/favicon" href="./../icons/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Media Capture and Streams API</title>
+	</head>
+	<body>
+		<div id="app">
+			<a href="../index.html">Back to Home</a>
+			<h1>Media Capture and Streams API</h1>
+			<div class="frames">
+				<div class="frame">
+					<label>Video</label>
+					<video id="video"></video>
+				</div>
+				<div class="frame">
+					<label>Photo</label>
+					<canvas id="canvas"></canvas>
+				</div>
+			</div>
+			<div>
+				<button id="get-video-button">Get Video</button>
+				<button id="save-photo-button">Save Photo</button>
+			</div>
+		</div>
+		<script type="module" src="./main.js"></script>
+	</body>
+</html>

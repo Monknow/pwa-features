@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="manifest" href="./../manifest.json" />
+		<link rel="icon" type="image/favicon" href="./../icons/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>File System Access API</title>
+	</head>
+	<body>
+		<div id="app">
+			<a href="../index.html">Back to Home</a>
+			<h1>File System Access API</h1>
+			<canvas id="canvas-element"></canvas>
+
+			<p>Image File:<span id="image-file-name"></span></p>
+			<details open>
+				<summary>Text File: <span id="text-file-name"></span></summary>
+				<pre id="text-file-pre"></pre>
+			</details>
+			<div>
+				<button id="get-file-button">Open File</button>
+				<button id="save-text-file-button">Save Text File</button>
+				<button id="save-image-file-button">Save Image File</button>
+			</div>
+		</div>
+		<script type="module" src="./main.js"></script>
+	</body>
+</html>

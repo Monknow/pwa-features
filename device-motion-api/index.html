@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="manifest" href="./../manifest.json" />
+		<link rel="icon" type="image/favicon" href="./../icons/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Device Motion API</title>
+	</head>
+	
+	<body>
+		<div id="app">
+			<a href="../index.html">Back to Home</a>
+
+			<h1>Device Motion API</h1>
+			<p>
+				<h2>Acceleration:</h2> 
+				<ul>
+					<li>X: <span id="acceleration-span-x"></span></li>
+					<li>Y: <span id="acceleration-span-y"></span></li>
+					<li>Z: <span id="acceleration-span-z"></span></li>
+				</ul>
+			</p>
+			<p>
+				<h2> Rotation Rate:</h2> 
+				<ul>
+					<li>Alpha: <span id="rotation-rate-span-alpha"></span></li>
+					<li>Beta: <span id="rotation-rate-span-beta"></span></li>
+					<li>Gamma: <span id="rotation-rate-span-gamma"></span></li></ul>
+			</p>
+		</div>
+		<script type="module" src="./main.js"></script>
+	</body>
+</html>
